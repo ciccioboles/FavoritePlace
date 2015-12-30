@@ -12,6 +12,8 @@
 		FC86BA2C1C346FD900C6F332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC86BA2A1C346FD900C6F332 /* Main.storyboard */; };
 		FC86BA2E1C346FD900C6F332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC86BA2D1C346FD900C6F332 /* Assets.xcassets */; };
 		FC86BA311C346FD900C6F332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC86BA2F1C346FD900C6F332 /* LaunchScreen.storyboard */; };
+		FC86BA391C34835800C6F332 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86BA381C34835800C6F332 /* DetailVC.swift */; };
+		FC86BA3B1C34976700C6F332 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86BA3A1C34976700C6F332 /* PhotosVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FC86BA2D1C346FD900C6F332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC86BA301C346FD900C6F332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC86BA321C346FD900C6F332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC86BA381C34835800C6F332 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		FC86BA3A1C34976700C6F332 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,13 @@
 		FC86BA251C346FD900C6F332 /* FavoritePlace */ = {
 			isa = PBXGroup;
 			children = (
-				FC86BA261C346FD900C6F332 /* AppDelegate.swift */,
 				FC86BA281C346FD900C6F332 /* ViewController.swift */,
+				FC86BA3A1C34976700C6F332 /* PhotosVC.swift */,
+				FC86BA381C34835800C6F332 /* DetailVC.swift */,
 				FC86BA2A1C346FD900C6F332 /* Main.storyboard */,
 				FC86BA2D1C346FD900C6F332 /* Assets.xcassets */,
 				FC86BA2F1C346FD900C6F332 /* LaunchScreen.storyboard */,
+				FC86BA261C346FD900C6F332 /* AppDelegate.swift */,
 				FC86BA321C346FD900C6F332 /* Info.plist */,
 			);
 			path = FavoritePlace;
@@ -137,6 +143,8 @@
 			files = (
 				FC86BA291C346FD900C6F332 /* ViewController.swift in Sources */,
 				FC86BA271C346FD900C6F332 /* AppDelegate.swift in Sources */,
+				FC86BA391C34835800C6F332 /* DetailVC.swift in Sources */,
+				FC86BA3B1C34976700C6F332 /* PhotosVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
